@@ -7,7 +7,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -47,8 +46,8 @@ public class MyAdapter extends ArrayAdapter<ImageUploadInfo> {
         TextView location = view.findViewById(R.id.getLocation);
 
 
-        name.setText(list.get(position).getName());
-        location.setText(list.get(position).getName());
+        name.setText("Problem :- " + list.get(position).getName());
+        location.setText("Location :- " + list.get(position).getLocation());
         Glide.with(activity).load(list.get(position).getImageUri()).into(imageView);
         return view;
     }

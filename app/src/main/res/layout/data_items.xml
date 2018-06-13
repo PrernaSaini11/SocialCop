@@ -5,26 +5,24 @@
 
     <ImageView
         android:id="@+id/getImages"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:src="@drawable/com_facebook_close" />
 
     <TextView
         android:id="@+id/getName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:padding="10dp"
         android:text="Problem statement"
-        android:textSize="22sp" />
+        android:textSize="15sp" />
 
     <TextView
         android:id="@+id/getLocation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:padding="10dp"
         android:text="Location"
-        android:textSize="22sp" />
+        android:textSize="15sp" />
 
 </LinearLayout>
